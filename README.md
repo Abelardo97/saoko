@@ -1,2 +1,2 @@
 # saoko
-Ejercicioi con Botstrap
+Ejercicio con Bootstrap
