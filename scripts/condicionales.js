@@ -1,5 +1,6 @@
 console.log("Sesión JS03 Condicionales");
 
+<<<<<<< HEAD
 //++++++++++++++++++ Declaración de bloque  +++++++++++++++++++++++++
 let nombre = "Rafa";
 let ciudad = "Guadalajara";
@@ -13,12 +14,32 @@ let ciudad = "Guadalajara";
 }
 
 console.log(`Participante: ${nombre}, que vive en ${ciudad}`); //Rafa
+=======
+
+//++++++++++++++++++ Declaración de bloque  +++++++++++++++++++++++++
+let nombre = "Rafa";
+let  ciudad = "Guadalajara";
+    
+{
+    const listado = ["Olivia","Benja","Luis","Linda"];
+    let nombre = "Fer"
+    let ciudad = "CDmx";
+    let apellido = "Palapa";
+    console.log(`Mi nombre es ${nombre} ${apellido} y vivo en ${ciudad}`);//Fer CDmx
+}
+
+console.log(`Participante: ${nombre}, que vive en ${ciudad}`); //Rafa 
+>>>>>>> e8f07e59e10e5cc2094ef5aef9aced41bcc2939f
 
 //++++++++++++++++++ Condicional IF  +++++++++++++++++++++++++
 /**
  * Sintaxis:
  *        if(condiciónVerdadera ) instrucción;
+<<<<<<< HEAD
  *
+=======
+ * 
+>>>>>>> e8f07e59e10e5cc2094ef5aef9aced41bcc2939f
  *        if(condiciónVerdadera ) {
  *                 instrucciones;
  *                }
@@ -28,9 +49,15 @@ let edad = 25;
 console.log("***Declaración antes del if ***");
 
 if (edad > 24) console.log("La edad es mayor a 25");
+<<<<<<< HEAD
 else {
   console.log("La edad es menor a 25");
   console.log("Seguiremos evaluando");
+=======
+else{
+    console.log("La edad es menor a 25");
+    console.log("Seguiremos evaluando");
+>>>>>>> e8f07e59e10e5cc2094ef5aef9aced41bcc2939f
 }
 
 console.log("<---- Declaración despues del if ***>");
@@ -41,6 +68,7 @@ console.log("<---- Declaración despues del if ***>");
  */
 
 console.log(`La edad es ${edad > 24 ? "mayor" : "menor"}a 25`);
+<<<<<<< HEAD
 
 let comparacion = edad === 25 ? " es igual" : edad > 24 ? "mayor" : "menor";
 console.log(`La edad es$ { comparacion } a 25`);
@@ -258,3 +286,6 @@ switch (valor) {
 }
 console.log(`La edad es ${comparacion} a 25.`);
 */
+=======
+console.log(`La edad es ${edad === 25 ? " es igual": (edad >24  ? "mayor": "menor")} a 25`);
+>>>>>>> e8f07e59e10e5cc2094ef5aef9aced41bcc2939f
