@@ -286,6 +286,4 @@ switch (valor) {
 }
 console.log(`La edad es ${comparacion} a 25.`);
 */
-=======
 console.log(`La edad es ${edad === 25 ? " es igual": (edad >24  ? "mayor": "menor")} a 25`);
->>>>>>> e8f07e59e10e5cc2094ef5aef9aced41bcc2939f
