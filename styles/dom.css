@@ -1,0 +1,19 @@
+#titulo-h1{
+    color: aquamarine;
+}
+
+
+.estilo-h1{
+    color: darkgoldenrod;
+}
+
+h1{
+    color: blue !important;
+}
+
+
+
+
+h3>.color {
+    color: blueviolet;
+}
